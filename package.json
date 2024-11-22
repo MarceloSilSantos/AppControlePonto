@@ -1,0 +1,25 @@
+{
+  "name": "expo-template-blank",
+  "description": "The Blank project template includes the minimum dependencies to run and an empty root component.",
+  "license": "0BSD",
+  "version": "52.0.40",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.10",
+    "expo-status-bar": "~2.0.0",
+    "pdf-lib": "^1.17.1",
+    "react": "18.3.1",
+    "react-native": "^0.76.2",
+    "react-native-pdf": "^6.7.5",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}
